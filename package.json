@@ -4,7 +4,7 @@
   "description": "Proxy for threedify web app and api.",
   "scripts": {
     "build": "tsc -p .",
-    "start": "node -r dotenv/config dist/src/index.js",
+    "start": "node -r dotenv/config dist/index.js",
     "start:dev": "nodemon -r dotenv/config src/index.ts",
     "lint": "pretty-quick --check --pattern \"src/**/*\" && eslint",
     "lint:fix": "pretty-quick --write  --pattern \"src/**/*\" && eslint --fix"
